@@ -10,7 +10,7 @@ public class Program {
         System.out.println("Moped color: " + slowRide.getColor());
         System.out.println("Fuel capacity: " + slowRide.getFuelCapacity());
 
-        //Testing The car class
+        //Testing The Car class
         Car myCar = new Car();
 
         myCar.setColor("Blue");
