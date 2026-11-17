@@ -18,5 +18,16 @@ public class Program {
 
         System.out.println("Car color: " + myCar.getColor());
         System.out.println("Passengers: " + myCar.getNumberOfPassengers());
+
+        // Testing SemiTruck
+        SemiTruck myTruck = new SemiTruck();
+
+        myTruck.setColor("White");
+        myTruck.setCargoCapacity(10000);
+
+        System.out.println("Truck color: " + myTruck.getColor());
+        System.out.println("Cargo capacity: " + myTruck.getCargoCapacity());
+
+
     }
 }
