@@ -1,38 +1,32 @@
 package com.pluralsight;
 
-public class Program {
+public class Main {
     public static void main(String[] args) {
-        Moped slowRide = new Moped();
-        slowRide.setColor("Red");
-        slowRide.setFuelCapacity(5);
 
         //Testing Moped class
+        Moped slowRide = new Moped("Black", 1, 0, 5);
+
+
         System.out.println("Moped color: " + slowRide.getColor());
         System.out.println("Fuel capacity: " + slowRide.getFuelCapacity());
 
         //Testing The Car class
-        Car myCar = new Car();
+        Car myCar = new Car("Green", 4, 1, 6);
 
-        myCar.setColor("Blue");
-        myCar.setNumberOfPassengers(4);
 
         System.out.println("Car color: " + myCar.getColor());
         System.out.println("Passengers: " + myCar.getNumberOfPassengers());
 
         // Testing SemiTruck
-        SemiTruck myTruck = new SemiTruck();
+        SemiTruck myTruck = new SemiTruck("Yellow", 10, 9, 15);
 
-        myTruck.setColor("White");
-        myTruck.setCargoCapacity(10000);
 
         System.out.println("Truck color: " + myTruck.getColor());
         System.out.println("Cargo capacity: " + myTruck.getCargoCapacity());
 
         // Testing Hovercraft
-        Hovercraft myHovercraft = new Hovercraft();
+        Hovercraft myHovercraft = new Hovercraft("Red", 20, 15, 30);
 
-        myHovercraft.setColor("Black");
-        myHovercraft.setNumberOfPassengers(6);
 
         System.out.println("Hovercraft color: " + myHovercraft.getColor());
         System.out.println("Passengers: " + myHovercraft.getNumberOfPassengers());
