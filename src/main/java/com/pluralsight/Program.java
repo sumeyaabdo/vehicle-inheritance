@@ -28,6 +28,13 @@ public class Program {
         System.out.println("Truck color: " + myTruck.getColor());
         System.out.println("Cargo capacity: " + myTruck.getCargoCapacity());
 
+        // Testing Hovercraft
+        Hovercraft myHovercraft = new Hovercraft();
 
+        myHovercraft.setColor("Black");
+        myHovercraft.setNumberOfPassengers(6);
+
+        System.out.println("Hovercraft color: " + myHovercraft.getColor());
+        System.out.println("Passengers: " + myHovercraft.getNumberOfPassengers());
     }
 }
